@@ -30,7 +30,7 @@ bash> geth --maxpeers 0 --networkid "10" --nodiscover --datadir "${HOME}/ethereu
 primary = eth.accounts[0]
 
 # get stringified source code 
-another bash> ./translate.sh counter.sol | pbcopy # for mac
+another bash> ./translate.sh house_locker.sol | pbcopy # for mac
 
 contractName = 'HouseLocker';
 
